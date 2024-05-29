@@ -1,18 +1,21 @@
 # 5-22-pratice
 ### A. 2163 초콜릿 자르기
+
 '''
+
 #include <stdio.h>
 
 int main(){
+
     int n,m;
     
     scanf("%d %d",&n,&m);
-    
     printf("%d",n*m-1);
-    
     return 0;
 }
+
 '''
+
 1*1에서는 1, 2*2에서는, 3 2*3에서는 5, 3*3에서는 8 이므로
 n*m-1이라는 식이 나온다.
 
@@ -74,6 +77,7 @@ w가 음수가 아니어야 하므로 2x-y<0일때 -1을 출력한다.
 ### D 31831 과민성 대장 증후군
 
 '''
+
 #include <stdio.h>
 
 int main(void) {
@@ -91,12 +95,13 @@ int main(void) {
     printf("%d",count);
   return 0;
 }
+
 '''
 초기값 n,m을 입력받고 계속해서 mod값을 sum에 더해주고 sum값이 m보다 크면 count값에 1을 추가한다.
 
 ### E 31870 버블버블
 
-'''
+'''c
 #include <stdio.h>
 
 int main(void) {
@@ -138,7 +143,9 @@ int main(void) {
   return 0;
 }
 '''
+
 버블정렬을 하다가 중간에 역순으로 바꾸면 횟수가 더 늘어나기 때문에 처음부터 바꿔서 다른 배열에 저장 후 더 횟수가 적은 값을 출력한다.
+
 ### F 31923 마라탕후루
 
 '''
@@ -174,7 +181,7 @@ int main(void) {
 #include <stdio.h>
 
 int main() {
-  int n, t = 10, count = 1;
+  int n, t = 9, count = 1;
 
   scanf("%d", &n);
 
@@ -182,7 +189,7 @@ int main() {
     t++;
     count *= 2;
   }
-  printf("%d,%d", t, count);
+  printf("%d", t);
   return 0;
 }
 '''
