@@ -183,6 +183,7 @@ int main() {
   printf("%d,%d", t, count);
   return 0;
 }
+
 '''
 
 처음에 daldidalgo를 입력하는데 필요한 시간은 8초이고 마지막에 daldidan을 적을때 필요한 시간은 2초이므로
