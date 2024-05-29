@@ -165,7 +165,9 @@ int main(void) {
   return 0;
 }
 '''
+
 각 변수를 배열에 저장한 후 
+
 ### G 31936 밤양갱
 
 '''
@@ -183,7 +185,6 @@ int main() {
   printf("%d,%d", t, count);
   return 0;
 }
-
 '''
 
 처음에 daldidalgo를 입력하는데 필요한 시간은 8초이고 마지막에 daldidan을 적을때 필요한 시간은 2초이므로
